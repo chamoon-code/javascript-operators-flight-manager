@@ -1,5 +1,5 @@
-function Flights() {
-  function calculateNumberOfFlights(passengers, capacity){
+Function Flights() {
+  Function calculateNumberOfFlights(passengers, capacity){
     let flights;
 
     if ((passengers < 0) || (!number.isInteger(Number(passengers)))) {
@@ -12,7 +12,7 @@ function Flights() {
     }
 
     if (passengers % capacity == 0) {
-      function () {
+      Function () {
 
       }lights = passengers/capacity;
     } else {
@@ -20,7 +20,7 @@ function Flights() {
     }
     return flights;
   }
-function checkAircraftRevision(distanceLimit, distancesArry) {
+Function checkAircraftRevision(distanceLimit, distancesArry) {
   let totalDistance = 0;
   let distance;
   for(distance of distancesArry) {
